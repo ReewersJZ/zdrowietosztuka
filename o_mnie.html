@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Zdrowie to sztuka</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css" id="styleSheet" class="style">
+	<link rel="stylesheet" href="css/fixed.css">
+</head>
+
+<body>
+
+<!-- home section -->
+<div id="home" style="height: 60vh;">
+	<!-- navigation -->
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navigationblock">
+		<a class="navbar-brand" href="index.html">
+			<img src="img/black_miedzy.png" alt="LOGO"/>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="index.html" class="nav-link">STRONA GŁÓWNA</a></li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="" data data-toggle="dropdown"
+				role="button" aria-expanded="false" id="submenu2" aria-haspopup="true">USŁUGI</a>
+				<div class="dropdown-menu" aria-labelledby="submenu2">
+					<a class="dropdown-item" href="zajecia_indywidualne.html">Poznaj siebie indywidualnie</a>
+					<a class="dropdown-item" href="zajecia_grupowe.html">Odnajdź się w tłumie</a>
+					<a class="dropdown-item" href="arteterapia.html">Odkryj się sztuką</a>
+				</div>
+			</li>
+            <li class="nav-item"><a href="index.html#about" class="nav-link">O MNIE</a></li>
+            <li class="nav-item nav-item-border"><a href="index.html#contact" class="nav-link">KONTAKT</a></li>
+			<li class="nav-item icon_nav"><button class="navButtonFonts" id="fontContrast" ><i class="fas fa-adjust"></i></button></li>
+			<li class="nav-item icon_nav"><button class="navButtonFonts" id="smallFont" title="czcionka mała" value="A-">A-</button></li>
+			<li class="nav-item icon_nav"><button class="navButtonFonts" id="mediumFont" title="czcionka średnia" value="A">A </button></li>
+			<li class="nav-item icon_nav"><button class="navButtonFonts" id="bigFont" title="czcionka duża" value="A+">A+</button></li>
+          </ul>
+		</div>
+	</nav>
+	<!-- end navigation -->
+
+	<!-- landing -->
+	<div class="landing">
+		<div class="home-wrap page_wrap">
+			<div class="home-inner home-inner-page"></div>
+		</div>
+	</div>
+    <div class="text-center caption">
+		<h1>O mnie</h1>
+	</div>
+	<!-- end landing -->
+</div>
+<!-- end home section -->
+
+
+<!-- resources section -->
+<div id="resources">
+			<div class="row text-center services">
+				<div class="col-md-12">
+					<div class="resource resource-page" id="resource_1">
+						<p class="resource-page-text resource-page-text_about">Nazywam się  Aleksandra Mieczkowska. Z wykształcenia jestem magistrem filozofii, jednak w swojej prywatnej praktyce łączę rozwój osobisty z pomocą osobom chorym onkologicznie. Praca ze sztuką, wyobraźnią  oraz zmiana przekonań na zdrowe są głównym narzędziem, oprócz wiedzy trenerskiej i terapeutycznej, której używam podczas sesji indywidualnych i grupowych. Jeżeli interesują Cię narzędzia do zmiany podejścia do choroby oraz rozważania na tematy rozwoju osobistego, emocji, stylu życia oraz duchowości, to możesz znaleźć tu coś dla siebie.
+							<br><br>
+						Od 2008 roku jestem Amazonką  – przeszłam chorobę nowotworową, która będąc trudnym doświadczeniem równocześnie zmieniła  moje życie na lepsze. Choroba była impulsem do zmiany drogi zawodowej  oraz pracy nad rozwojem osobistym. Choroba oraz doświadczenia z nią związane wpłynęły na moje decyzję o zajęciu się wsparciem osób chorych onkologiczne, a w szczególności kobiet po mastektomii. Osobiste doświadczenie związane z przejściem terapii Simontonowskiej oraz wiedza merytoryczna spowodowała, że udzielane wsparcie jest kompleksowe. 
+						<br><br>
+						Posiadam wieloletnie doświadczenie w prowadzeniu warsztatów psychoonkologicznych, a na co dzień  współpracuje z Ośrodkami Medycznymi wspierając kobiety i mężczyzn po mastektomii.  Największą radość daje mi pomoc innym w radzeniu sobie z chorobą.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-12 aboutPicture-page-aboutMe">
+                    <img class="aboutPicture aboutPicture-page aboutPicture-page-aboutMe" src="img/o_mnie_kolarz.jpg" width="100%">
+                </div>
+			</div>
+	</div>
+</div>
+<!-- end resources section -->
+
+
+<!-- footer section -->
+<footer class="mainFooter">
+	<div class="col-sm-12 pt-0 pb-0">
+		<p class="footerStyle">2021 <img id="logo_ree" src="img/logo_black.png"></p>
+	</div>
+</footer>
+<!-- end footer section -->
+
+
+<!--- Script Source Files -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<script src="js/changeFont.js"></script>
+<!--- End of Script Source Files -->
+
+</body>
+</html>

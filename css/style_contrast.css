@@ -1,0 +1,353 @@
+body{
+    overflow-x: hidden;
+    font-size: 18px;
+    background-color: black;
+  }
+  
+  .btn{
+    font-size: 1em;
+  }
+
+
+  
+  /* navigation */
+  .navbar{
+    background-color:  black; 
+    font-size: 0.9em;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+  }
+  
+  .navbar-brand > img{
+    height: 4rem;
+  }
+
+  
+  .navbar-nav li{
+    padding-right: 0.6rem;
+  }
+  
+  .navbar .navbar-nav .nav-link{
+    color: yellow;
+    padding-top: 0.6rem;
+  }
+  
+  
+  .navbar .navbar-nav .nav-link:hover{
+    color: black;
+    background-color: yellow;
+  }
+  
+  .btn-secondary{
+    background-color: yellow;
+    border-color: yellow;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .btn-secondary:hover{
+    background-color: black;
+    border-color: black;
+    color: yellow;
+  }
+  
+  .nav-item-border{
+    border-right: 1px solid black;
+  }
+  
+  .navButtonFonts{
+    background-color: yellow;
+    border: 0;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0;
+    margin-right: 10%;
+    margin-left: 20%;
+  }
+  
+  .navButtonFonts:hover{
+    color: yellow;
+    background-color: black;
+    border: 2px solid yellow;
+  }
+  
+
+  
+  /* Landing */
+  .home-inner{
+    background-image: url(../img/sloneczniki.jpg);
+    background-size: contain;
+  }
+
+  .home-inner-page{
+    background-image: url(../img/sloneczniki_page.jpg);
+  }
+
+  
+  .caption h1{
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .caption h3{
+    padding-bottom: 1rem;
+    font-size: 1.5em;
+  }
+  
+  .caption{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: rgb(1, 17, 66);
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  
+ 
+   /* resources*/
+   .readMore, .buttonMore{
+    background-color: black;
+    border: 3px solid black;
+    color: yellow;
+  }
+  
+  .readMore, .buttonMore:hover{
+    background-color: yellow;
+    border-color: black;
+    color: black;
+  }
+  
+  .resource h3{
+    font-size: 1.5em;
+  }
+
+  .services{
+    background-color: yellow;
+  }
+ 
+  .resource-page{
+    text-align: justify;
+  }
+
+  .resource-page-text{
+    padding-top: 10%;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  
+  .resource-page-text_about{
+    padding-top: 3%;
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+
+  
+  /* feautures */
+  .jumbotron{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    color: yellow;
+    font-weight: bold;
+    background-color: black;
+  }
+  
+  .jumbotron h3{
+    font-size: 2em;
+  }
+  
+  .fa-ellipsis-h{
+    color: black;
+    font-size: 4rem;
+  }
+  
+  .feautures-list{
+    list-style: none;
+  }
+  
+  .line{
+    margin-bottom: 0;
+  }
+  
+  /* about */
+  
+  #about{
+    background-color: yellow;
+  }
+  
+  .aboutPicture{
+    border-radius: 50%;
+    width: 100%;
+    min-width: 18vw;
+  }
+  
+  .aboutPictureDiv{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .blockquote{
+    font-size: 1.2em;
+  }
+  
+  .blockquote, .jumbo-line{
+    width: 70%;
+    margin: 0 auto;
+    color: black;
+  }
+  
+  .lightLine{
+    background-color: rgb(182, 180, 180);
+    height: 0.25px;
+  }
+  
+  #blockquotePossition{
+    padding-top: 3rem;
+  }
+
+  .aboutPicture-page{
+    padding: 1rem 3rem 1rem 3rem;
+  }
+
+  .aboutPicture-page-aboutMe{
+    border-radius: 0%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+  }
+  
+  
+  /* contact */
+
+  #contact{
+    background-color: yellow;
+    color: black;
+  }
+  
+  .icons_contact
+  {
+      width: 20px;
+      margin-right: 12px;
+  }
+  
+  .shortLine{
+    width: 50%;
+    margin-left: 10rem;
+  }
+  
+  .contactBlock > h4, #footerBrand {
+    padding-left: 10rem;
+  }
+  
+  .contactBlock p{
+    padding-left: 10rem;
+  }
+
+  .contactBlock p > a{
+      color: black;
+      font-style: normal;
+  }
+  
+
+
+  /* footer */
+  .mainFooter{
+    color: black;
+    background-color: yellow;
+    padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 0;
+  }
+  
+  
+  footer img, #logo_ree{
+    width: 100px;
+  padding-bottom: 6px;
+  }
+  
+
+  /* all @media */
+  @media (min-width: 1800px){
+    body{
+    font-size: 22px;
+    }
+  }
+
+  @media all and (max-width:991px){
+    .aboutPicture{
+      width: 50%;
+    }
+    .contactBlock > h4, #footerBrand {
+      padding-left: 3rem;
+    }
+    .contactBlock p{
+      padding-left: 3rem;
+    }
+    .shortLine{
+        width: 100%;
+        margin-left: 0rem;
+      }
+      .aboutPicture-page{
+        padding: 0;
+        padding-top: 1rem;
+        width: 90%; 
+      }
+      .resource-page-text{
+        padding-top: 5%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+  }
+
+  @media (max-width: 927px){
+    .navbar-nav li{
+    padding-right: 0.2rem;
+    }
+    .navbar{
+      font-size: 0.7em;
+    }
+  }
+
+  @media (max-width: 783px){
+    .navbar-nav li{
+    padding-right: 0.2rem;
+    }
+    .navbar{
+      font-size: 0.7em;
+    }
+    .navButtonFonts{
+      display: none;
+  
+    }
+  }
+
+  @media all and (max-width: 767px){
+    .aboutPicture{
+      width:50%;
+      max-width: 40vw;
+    }
+    .contactBlock > h4, #footerBrand {
+      padding-left: 1rem;
+    }
+    .contactBlock p{
+      padding-left: 1rem;
+    }
+    .navbar-nav li{
+        padding-right: 0.6rem;
+        }
+        .navbar{
+            font-size: 0.8em;
+        }
+  }
+
+@media all and (max-width: 425px){
+  .caption h1{
+    font-size: 1.5rem;
+  }
+}
